@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testtt;
+package sample.library;
 
 import java.util.Scanner;
-import sample.library.MyMath;
 import sample.library.MyMath;
 
 /**
@@ -16,12 +15,8 @@ import sample.library.MyMath;
 public class Peter {
 
     public static void main(String[] args) {
-        int a, b;
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a: ");
-        a = Integer.parseInt(scan.nextLine());
-        System.out.print("Enter b: ");
-        b = Integer.parseInt(scan.nextLine());
+        int a;
+        int b;
         a = 10;
         b = 2;
         int resultSum = MyMath.Sum(a, b);
